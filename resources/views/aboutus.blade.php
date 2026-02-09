@@ -8,6 +8,15 @@
 </head>
 
 <body>
+  <header>
+    <nav>
+        <ul>
+            <li><a href="{{ route('home') }}">Homepage</a></li>
+            <li><a href="{{ route('aboutus') }}">Chi Siamo</a></li>
+            <li><a href="{{ route('products') }}">Prodotti</a></li>
+        </ul>
+    </nav>
+</header>
   <h1>About us</h1>
 </body>
 
