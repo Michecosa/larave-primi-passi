@@ -3,7 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    $data = "Sono la pagina di Homepage";
+    return view('home', compact("data"));
 })->name('home');
 
 Route::get('/products', function () {

@@ -18,6 +18,7 @@
     </nav>
   </header>
   <h1>Hello World</h1>
+  <p>{{ $data }}</p>
 </body>
 
 </html>
